@@ -1,0 +1,24 @@
+{
+    "name": "braulio.santos/digital-cep",
+    "description": "Busca de CEP online",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+            "psr-0":{
+            
+            },
+            "psr-4": {
+            "BraulioSantos\\DigitalCep\\": "src/",
+            "Wead\\DigitalCep\\": "src/"          
+        }
+    },
+    "authors": [
+        {
+            "name": "Braulio Santos",
+            "email": "braulio.j.s.santos@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.2.0"
+    }
+}
